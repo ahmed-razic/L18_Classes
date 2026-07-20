@@ -9,6 +9,9 @@
 
             Score score2 = new Score("Player1", 5000, 4);
             Console.WriteLine($"Name: {score2.name}, Points: {score2.points}, Level: {score2.level}");
+
+            Score score3 = new("Isa", 100, 13);
+            Console.WriteLine($"Name: {score3.name}");
         }
 
         class Score    
